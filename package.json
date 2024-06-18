@@ -1,0 +1,21 @@
+{
+  "name": "polygon",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3333",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.6.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^9.6.0",
+    "globals": "^15.6.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.3.1"
+  },
+  "dependencies": {}
+}

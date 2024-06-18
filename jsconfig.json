@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "esnext",
+        "checkJs": true,
+        "baseUrl": ".",
+        "paths": {
+            "tailwindcss": [
+                "node_modules/tailwindcss/index.js"
+            ],
+            "@/*": [
+                "src/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*",
+        "tailwind.config.js",
+    ],
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}
